@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comic Neue', cursive;
     background-color: #a28ada;
     color: #af9fe9;
+   
 }
 
 header {
@@ -15,6 +16,7 @@ header {
     color: thistle;
     text-align: center;
     padding: 40px;
+    font-family: 'Comic Neue', cursive;
 
 }
 
@@ -67,3 +69,11 @@ iframe {
     
 }
 
+a {
+    color: rgb(233, 218, 233);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(171, 123, 235);
+}
