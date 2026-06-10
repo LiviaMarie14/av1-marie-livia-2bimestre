@@ -5,10 +5,9 @@
 }
 
 body {
-    font-family: 'Comic Neue', cursive;
-    background-color: #a28ada;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9E83D8;
     color: #af9fe9;
-   
 }
 
 header {
@@ -16,7 +15,6 @@ header {
     color: thistle;
     text-align: center;
     padding: 40px;
-    font-family: 'Comic Neue', cursive;
 
 }
 
@@ -62,18 +60,108 @@ h2 {
 
 h3 {
     color: #b19cdd;
+    font-size: 24px;
+}
+
+h4 {
+    color: #b19cdd;
+    font-size: 24px;
 }
 
 iframe {
     display: block;
     
 }
-
-a {
-    color: rgb(233, 218, 233);
-    text-decoration: none;
+.fundo {
+    text-align: center;
 }
 
-a:hover {
-    color: rgb(171, 123, 235);
+.formulario {
+    width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.linha {
+    display: flex;
+    gap: 10px;
+}
+
+.linha input {
+    width: 50%;
+}
+
+button {
+    margin-top: 25px;
+    width: 120px;
+    padding: 12px;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #6d28d9;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #4b0b64;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #d6b8ff;
+    padding: 10px;
+    text-align: center;
+    color: #4b0b64;
+}
+
+tr:nth-child(even) {
+    background-color: #f3e8ff;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #e0c3fc;
+}
+
+h2 {
+    color: #4b0b64;
+    text-align: center;
 }
